@@ -93,9 +93,9 @@ fi
 read -p "输入容器映射端口: （回车默认为3001）" pp
 pp=${pp:-"3001"}
 if [[ ${pp} != "3001" || ${pp} != "3001" ]];then
-	eval "docker run -dit   -v /radish:/etc/lb   -p $pp:3001   --name radish   --hostname radish   --restart unless-stopped    --restart always   radish:latest"
+	eval "docker run -dit   -v /radish:/etc/lb   -p $pp:3001   --name radish   --hostname radish   --restart unless-stopped    --restart always   wuhuan123/radish:latest"
 else	
-	eval "docker run -dit   -v /radish:/etc/lb   -p 3001:3001   --name radish   --hostname radish   --restart unless-stopped    --restart always   radish:latest"
+	eval "docker run -dit   -v /radish:/etc/lb   -p 3001:3001   --name radish   --hostname radish   --restart unless-stopped    --restart always   wuhuan123/radish:latest"
 fi
 
 exit 0
