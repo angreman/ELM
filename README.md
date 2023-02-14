@@ -10,7 +10,7 @@ bash <(wget --no-check-certificate -qO- 'https://ghproxy.com/https://raw.githubu
 
 一键安装：
 ```shell
-bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/lu0b0/ELM/main/JD/docker_create.sh')
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/angreman/ELM/main/JD/docker_create.sh')
 ```
 #### 本仓库之中所有脚本以及配置纯属自用备份
 ## 免责声明
